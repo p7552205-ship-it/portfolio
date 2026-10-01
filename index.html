@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praveen | UI/UX Designer & Product Designer | Chennai</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Praveen, a creative and detail-oriented UI/UX Designer based in Chennai. Skilled in Figma, UX Research, Wireframing, Interactive Prototyping, Design Systems, and Frontend Foundations.">
+  <meta name="keywords" content="Praveen UI/UX Designer, UI/UX Portfolio, Product Designer Chennai, Figma Designer, Arrear Clearing App, Login360, Design Systems, Wireframing, User Research">
+  <meta name="author" content="Praveen">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Praveen | UI/UX Designer Portfolio">
+  <meta property="og:description" content="Creative UI/UX Designer passionate about crafting user-friendly, intuitive digital experiences. Explore case studies, design systems, and prototypes.">
+  <meta property="og:image" content="assets/images/arrear-clearing.jpg">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Praveen | UI/UX Designer Portfolio">
+  <meta name="twitter:description" content="Explore UI/UX case studies, Figma prototypes, and design systems by Praveen.">
+  <meta name="twitter:image" content="assets/images/arrear-clearing.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%233B82F6'/><text x='50%' y='68%' font-size='56' font-family='sans-serif' font-weight='800' fill='white' text-anchor='middle'>P</text></svg>">
+
+  <!-- Font Awesome 6 CDN for modern icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Praveen",
+    "jobTitle": "UI/UX Designer",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chennai",
+      "addressRegion": "Tamil Nadu",
+      "addressCountry": "India"
+    },
+    "email": "praveenkumar880761@gmail.com",
+    "telephone": "+91-9363256311",
+    "url": "https://praveen-portfolio.local",
+    "knowsAbout": ["UI/UX Design", "Figma", "User Research", "Wireframing", "Prototyping", "Design Systems", "HTML", "CSS"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Background Animated Glow Blobs -->
+  <div class="hero-glow-1" aria-hidden="true"></div>
+  <div class="hero-glow-2" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       STICKY NAVBAR
+       ========================================================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo" aria-label="Praveen Home">
+        <div class="logo-badge">P</div>
+        <div>
+          <span>PRAVEEN</span>
+          <span class="logo-sub">UI/UX DESIGNER</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Case Studies</a></li>
+        <li><a href="#process" class="nav-link">UX Process</a></li>
+        <li><a href="#design-system" class="nav-link">Design System</a></li>
+        <li><a href="#education" class="nav-link">Journey</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <div class="nav-status" title="Open to full-time UI/UX opportunities">
+          <span class="status-dot"></span>
+          <span>Available for Hire</span>
+        </div>
+
+        <button class="theme-toggle-btn" id="themeToggle" title="Toggle Dark/Light Mode" aria-label="Toggle Theme">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+
+        <button class="btn btn-primary btn-sm" data-open-resume id="navResumeBtn">
+          <i class="fa-solid fa-file-arrow-down"></i> Resume
+        </button>
+
+        <button class="mobile-menu-btn" id="mobileMenuToggle" aria-label="Open mobile menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-nav-drawer" id="mobileNavDrawer">
+    <ul class="mobile-nav-links">
+      <li><a href="#home" class="mobile-nav-link">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About Me</a></li>
+      <li><a href="#skills" class="mobile-nav-link">Skills & Tools</a></li>
+      <li><a href="#projects" class="mobile-nav-link">Case Studies</a></li>
+      <li><a href="#process" class="mobile-nav-link">Design Process</a></li>
+      <li><a href="#design-system" class="mobile-nav-link">Design System</a></li>
+      <li><a href="#education" class="mobile-nav-link">Education & Certs</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div style="display: flex; flex-direction: column; gap: 1rem;">
+      <button class="btn btn-primary" data-open-resume>
+        <i class="fa-solid fa-file-arrow-down"></i> View / Download Resume
+      </button>
+      <a href="#contact" class="btn btn-secondary mobile-nav-link">
+        <i class="fa-solid fa-envelope"></i> Let's Talk
+      </a>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <header class="section hero-section" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-pill">
+          <i class="fa-solid fa-sparkles"></i>
+          <span>UI/UX Designer & Product Thinker</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Praveen</span><br>
+          <span class="hero-typed-wrapper">
+            <span id="typedRoles">UI/UX Designer</span><span class="typed-cursor">|</span>
+          </span>
+        </h1>
+
+        <p class="hero-bio">
+          Creative and detail-oriented UI/UX Designer with a strong computer science foundation. Dedicated to solving complex user problems through empathetic research, clean wireframes, interactive prototypes, and scalable Figma design systems.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-layer-group"></i> Explore Case Studies
+          </a>
+          <button class="btn btn-secondary btn-lg" data-open-resume>
+            <i class="fa-solid fa-file-lines"></i> View Resume
+          </button>
+          <a href="#contact" class="btn btn-accent btn-lg">
+            <i class="fa-solid fa-paper-plane"></i> Contact Me
+          </a>
+        </div>
+
+        <div class="hero-stats-bar">
+          <div class="stat-item">
+            <span class="stat-num">Figma</span>
+            <span class="stat-label">Auto-Layout & Systems</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">User-Centered Focus</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">CS Diploma</span>
+            <span class="stat-label">Frontend & Code Literacy</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual with 3D Avatar & Floating Badges -->
+      <div class="hero-visual-wrapper">
+        <div class="hero-card-frame">
+          <div class="hero-img-box">
+            <img src="assets/images/praveen-avatar.jpg" alt="Praveen - UI/UX Designer" loading="eager">
+          </div>
+
+          <div class="hero-designer-badge">
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <div style="width: 10px; height: 10px; border-radius: 50%; background: #34D399; box-shadow: 0 0 10px #34D399;"></div>
+              <div>
+                <div style="font-size: 0.85rem; font-weight: 700; color: #FFFFFF;">Praveen</div>
+                <div style="font-size: 0.75rem; color: #38BDF8;">Chennai, Tamil Nadu</div>
+              </div>
+            </div>
+            <div style="font-size: 0.75rem; font-weight: 600; color: #9CA3AF; background: rgba(255,255,255,0.06); padding: 0.25rem 0.6rem; border-radius: 6px;">
+              Figma Pro
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Badges -->
+        <div class="floating-badge badge-figma">
+          <i class="fa-brands fa-figma" style="color: #F24E1E; font-size: 1.15rem;"></i>
+          <span>Figma Master</span>
+        </div>
+
+        <div class="floating-badge badge-research">
+          <i class="fa-solid fa-users-viewfinder" style="color: #06B6D4; font-size: 1.15rem;"></i>
+          <span>UX Research & Personas</span>
+        </div>
+
+        <div class="floating-badge badge-prototype">
+          <i class="fa-solid fa-wand-magic-sparkles" style="color: #3B82F6; font-size: 1.15rem;"></i>
+          <span>Interactive Prototypes</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       ABOUT SECTION
+       ========================================================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-regular fa-user"></i> Professional Summary</span>
+        <h2 class="section-title">Designing Experiences That <span class="gradient-text">Make Sense</span></h2>
+        <p class="section-subtitle">A blend of design empathy, structured problem solving, and technical feasibility.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass-card about-bio-card">
+          <p class="about-lead">
+            I am a creative and detail-oriented <strong style="color: #38BDF8;">UI/UX Designer</strong> passionate about understanding user needs, eliminating cognitive friction, and delivering visually appealing, intuitive digital products.
+          </p>
+          <div class="about-paras">
+            <p>
+              Holding a <strong>Diploma in Computer Science</strong> (2023–2026) from <strong>Dhanalakshmi Srinivasan University</strong>, I bridge the gap between design and engineering. I don’t just design pretty interfaces—I understand how components are structured, how responsive layouts behave in CSS, and how developers translate design tokens into code.
+            </p>
+            <p>
+              Having completed specialized UI/UX training at <strong>LOGIN360 Chennai</strong>, I work hands-on with user research, persona creation, wireframing, interactive prototyping, and usability testing. My flagship project, <em>Arrear Clearing</em>, was born out of genuine empathy for students struggling with academic backlogs, solving their study workflow through thoughtful product architecture.
+            </p>
+          </div>
+
+          <div class="about-highlights-grid">
+            <div class="highlight-box">
+              <i class="fa-solid fa-bullseye"></i>
+              <div>
+                <div class="highlight-title">Problem Solver</div>
+                <div class="highlight-desc">Identifying core pain points before pushing pixels.</div>
+              </div>
+            </div>
+            <div class="highlight-box">
+              <i class="fa-solid fa-cubes"></i>
+              <div>
+                <div class="highlight-title">Design Systems</div>
+                <div class="highlight-desc">Consistent typography, auto-layouts & reusable variants.</div>
+              </div>
+            </div>
+            <div class="highlight-box">
+              <i class="fa-solid fa-code"></i>
+              <div>
+                <div class="highlight-title">Technical Literacy</div>
+                <div class="highlight-desc">HTML, CSS & responsive web knowledge for dev synergy.</div>
+              </div>
+            </div>
+            <div class="highlight-box">
+              <i class="fa-solid fa-comments"></i>
+              <div>
+                <div class="highlight-title">User Validation</div>
+                <div class="highlight-desc">Usability testing to refine navigation and flow.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Facts Column -->
+        <div class="about-facts-wrapper">
+          <div class="fact-card">
+            <div class="fact-left">
+              <div class="fact-icon-box"><i class="fa-solid fa-briefcase"></i></div>
+              <div>
+                <div class="fact-label">Specialization</div>
+                <div class="fact-val">UI/UX & Product Design</div>
+              </div>
+            </div>
+            <span style="color: #34D399; font-size: 0.82rem; font-weight: 600;">Fresher / Entry Level</span>
+          </div>
+
+          <div class="fact-card">
+            <div class="fact-left">
+              <div class="fact-icon-box"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <div class="fact-label">Location</div>
+                <div class="fact-val">Chennai, Tamil Nadu, India</div>
+              </div>
+            </div>
+            <span style="color: var(--secondary); font-size: 0.82rem;">Open to Relocation / Remote</span>
+          </div>
+
+          <div class="fact-card">
+            <div class="fact-left">
+              <div class="fact-icon-box"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div>
+                <div class="fact-label">Education</div>
+                <div class="fact-val">Diploma in Computer Science</div>
+              </div>
+            </div>
+            <span style="color: var(--text-muted); font-size: 0.82rem;">2023 – 2026</span>
+          </div>
+
+          <div class="fact-card">
+            <div class="fact-left">
+              <div class="fact-icon-box"><i class="fa-solid fa-certificate"></i></div>
+              <div>
+                <div class="fact-label">Professional Certification</div>
+                <div class="fact-val">UI/UX Designer — LOGIN360</div>
+              </div>
+            </div>
+            <span style="color: var(--secondary); font-size: 0.82rem;">Verified Training</span>
+          </div>
+
+          <div class="fact-card">
+            <div class="fact-left">
+              <div class="fact-icon-box"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <div class="fact-label">Direct Email</div>
+                <div class="fact-val" style="word-break: break-all;">praveenkumar880761@gmail.com</div>
+              </div>
+            </div>
+            <a href="mailto:praveenkumar880761@gmail.com" class="btn btn-sm btn-secondary" title="Send Email">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+
+          <div class="fact-card">
+            <div class="fact-left">
+              <div class="fact-icon-box"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <div class="fact-label">Phone & WhatsApp</div>
+                <div class="fact-val">+91 9363256311</div>
+              </div>
+            </div>
+            <a href="tel:+919363256311" class="btn btn-sm btn-secondary" title="Call Praveen">
+              <i class="fa-solid fa-phone-volume"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TECHNICAL SKILLS SECTION
+       ========================================================================== -->
+  <section class="section" id="skills" style="background: rgba(15, 23, 42, 0.4);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-sliders"></i> Core Capabilities</span>
+        <h2 class="section-title">Technical & Design <span class="gradient-text">Toolkit</span></h2>
+        <p class="section-subtitle">Categorized skills backed by hands-on project work, design systems, and user research methodologies.</p>
+      </div>
+
+      <!-- Skill Filter Navigation -->
+      <div class="skills-filter-nav">
+        <button class="skill-tab-btn active" data-filter="all">All Skills</button>
+        <button class="skill-tab-btn" data-filter="ui-ux">UI/UX Design</button>
+        <button class="skill-tab-btn" data-filter="tools">Design Tools</button>
+        <button class="skill-tab-btn" data-filter="systems">Design Systems</button>
+        <button class="skill-tab-btn" data-filter="research">UX Research & Methods</button>
+        <button class="skill-tab-btn" data-filter="code">Frontend & Tech</button>
+      </div>
+
+      <!-- Skills Grid -->
+      <div class="skills-grid" id="skillsContainer">
+        
+        <!-- Figma -->
+        <div class="skill-card" data-category="tools">
+          <div class="skill-card-top">
+            <div class="skill-icon-badge"><i class="fa-brands fa-figma" style="color: #F24E1E;"></i></div>
+            <span class="skill-level-pill level-expert">Expert</span>
+          </div>
+          <h3 class="skill-name">Figma & FigJam</h3>
+          <p class="skill-desc">Auto Layout 5.0, component variants, interactive prototypes, variables, wireframing, and team collaboration.</p>
+          <div class="skill-progress-track">
+            <div class="skill-progress-bar" style="width: 95%;"></div>
+          </div>
+        </div>
+
+        <!-- Wireframing & Prototyping -->
+        <div class="skill-card" data-category="ui-ux">
+          <div class="skill-card-top">
+            <div class="skill-icon-badge"><i class="fa-solid fa-shapes" style="color: #38BDF8;"></i></div>
+            <span class="skill-level-pill level-expert">Expert</span>
+          </div>
+          <h3 class="skill-name">Wireframing & Prototyping</h3>
+          <p class="skill-desc">Translating conceptual ideas into low-fidelity wireframes, high-fidelity prototypes, and clickable interactive journeys.</p>
+          <div class="skill-progress-track">
+            <div class="skill-progress-bar" style="width: 92%;"></div>
+          </div>
+        </div>
+
+        <!-- User Research & Personas -->
+        <div class="skill-card" data-category="research">
+          <div class="skill-card-top">
+            <div class="skill-icon-badge"><i class="fa-solid fa-users" style="color: #06B6D4;"></i></div>
+            <span class="skill-level-pill level-advanced">Advanced</span>
+          </div>
+          <h3 class="skill-name">User Research & Personas</h3>
+          <p class="skill-desc">Conducting user interviews, building realistic user personas, empathy maps, and user journey mapping.</p>
+          <div class="skill-progress-track">
+            <div class="skill-progress-bar" style="width: 88%;"></div>
+          </div>
+        </div>
+
+        <!-- Information Architecture -->
+        <div class="skill-card" data-category="ui-ux">
+          <div class="skill-card-top">
+            <div class="skill-icon-badge"><i class="fa-solid fa-sitemap" style="color: #818CF8;"></i></div>
+            <span class="skill-level-pill level-advanced">Advanced</span>
+          </div>
+          <h3 class="skill-name">Information Architecture</h3>
+          <p class="skill-desc">Structuring intuitive app navigation, task flows, sitemaps, and mental models to minimize user cognitive overload.</p>
+          <div class="skill-progress-track">
+            <div class="skill-progress-bar" style="width: 86%;"></div>
+          </div>
+        </div>
+
+        <!-- Design Systems & Tokens -->
+        <div class="skill-card" data-category="systems">
+          <div class="skill-card-top">
+            <div class="skill-icon-badge"><i class="fa-solid fa-swatchbook" style="color: #F43F5E;"></i></div>
+            <span class="skill-level-pill level-expert">Expert</span>
+          </div>
+          <h3 class="skill-name">Design Systems & Tokens</h3>
+          <p class="skill-desc">Crafting scalable component libraries, WCAG color contrast palettes, typography hierarchies, and spacing scales.</p>
+          <div class="skill-progress-track">
+            <div class="skill-progress-bar" style="width: 90%;"></div>
+          </div>
+        </div>
+
+        <!-- Adobe Photoshop & Illustrator -->
+        <div class="skill-card" data-category="tools">
+          <div class="skill-card-top">
+            <div class="skill-icon-badge"><i class="fa-solid fa-palette" style="color: #38BDF8;"></i></div>
+            <span class="skill-level-pill level-advanced">Advanced</span>
+          </div>
+          <h3 class="skill-name">Photoshop & Illustrator</h3>
+          <p class="skill-desc">Vector illustration, custom icon design, graphic assets, image editing, and branding touchpoints.</p>
+          <div class="skill-progress-track">
+            <div class="skill-progress-bar" style="width: 82%;"></div>
+          </div>
+        </div>
+
+        <!-- Usability Testing & Heuristics -->
+        <div class="skill-card" data-category="research">
+          <div class="skill-card-top">
+            <div class="skill-icon-badge"><i class="fa-solid fa-clipboard-check" style="color: #34D399;"></i></div>
+            <span class="skill-level-pill level-advanced">Advanced</span>
+          </div>
+          <h3 class="skill-name">Usability Testing</h3>
+          <p class="skill-desc">Conducting qualitative testing sessions, competitor benchmarking, Nielsen Norman heuristics, and UX iterations.</p>
+          <div class="skill-progress-track">
+            <div class="skill-progress-bar" style="width: 85%;"></div>
+          </div>
+        </div>
+
+        <!-- HTML, CSS & Responsive Web -->
+        <div class="skill-card" data-category="code">
+          <div class="skill-card-top">
+            <div class="skill-icon-badge"><i class="fa-brands fa-html5" style="color: #E34F26;"></i></div>
+            <span class="skill-level-pill level-proficient">Proficient</span>
+          </div>
+          <h3 class="skill-name">HTML5, CSS3 & Responsive Web</h3>
+          <p class="skill-desc">Modern semantic HTML, CSS Flexbox/Grid, media queries, and understanding frontend implementation constraints.</p>
+          <div class="skill-progress-track">
+            <div class="skill-progress-bar" style="width: 80%;"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CASE STUDIES / PROJECTS SECTION
+       ========================================================================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-laptop-code"></i> Featured Case Studies</span>
+        <h2 class="section-title">Solving Problems Through <span class="gradient-text">Design</span></h2>
+        <p class="section-subtitle">Real-world UX case studies featuring deep problem definition, user research, wireframing, and interactive Figma prototypes.</p>
+      </div>
+
+      <!-- FLAGSHIP CASE STUDY: ARREAR CLEARING -->
+      <div class="featured-project-card">
+        <div class="project-visual-side">
+          <img src="assets/images/arrear-clearing.jpg" alt="Arrear Clearing Mobile App Case Study" loading="lazy">
+          <div class="project-tag-overlay">
+            <i class="fa-solid fa-star" style="color: #FBBF24;"></i> Flagship UX Case Study
+          </div>
+        </div>
+
+        <div class="project-content-side">
+          <div class="project-meta-pills">
+            <span class="meta-pill"><i class="fa-solid fa-mobile-screen"></i> Mobile App (iOS / Android)</span>
+            <span class="meta-pill"><i class="fa-solid fa-user-graduate"></i> EdTech</span>
+            <span class="meta-pill"><i class="fa-solid fa-clock"></i> 6 Weeks Sprint</span>
+          </div>
+
+          <h3 class="project-title">Arrear Clearing — Student Academic Success App</h3>
+          
+          <p class="project-summary">
+            A comprehensive mobile application designed to help college and diploma students strategically organize, study, and clear backlog (arrear) examinations without academic anxiety or confusion.
+          </p>
+
+          <ul class="project-features-list">
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              <span><strong>Subject-wise Study Hub:</strong> Organized curated notes, high-yield topics, and video references for rapid revision.</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              <span><strong>Previous-Year Question Papers (PYQP):</strong> Searchable repository with year-wise filters and solved answer keys.</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              <span><strong>Mentor Connect Feature:</strong> 1-on-1 guidance connecting struggling students with faculty and peer mentors.</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-circle-check"></i>
+              <span><strong>Progress & Exam Countdown:</strong> Visual analytics and task completion tracking to keep students on schedule.</span>
+            </li>
+          </ul>
+
+          <div class="project-tools-tags">
+            <span class="tool-tag">Figma</span>
+            <span class="tool-tag">User Personas</span>
+            <span class="tool-tag">Information Architecture</span>
+            <span class="tool-tag">Wireframing</span>
+            <span class="tool-tag">Usability Testing</span>
+            <span class="tool-tag">Design System</span>
+          </div>
+
+          <div class="project-actions-row">
+            <button class="btn btn-primary" data-open-case-study>
+              <i class="fa-solid fa-eye"></i> View Full Case Study
+            </button>
+            <button class="btn btn-secondary" data-open-case-study>
+              <i class="fa-brands fa-figma"></i> Interactive Prototype
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECONDARY PROJECTS GRID -->
+      <div class="secondary-projects-grid">
+        
+        <!-- PROJECT 2: NEOPAY FINTECH -->
+        <div class="secondary-project-card">
+          <div class="secondary-img-wrapper">
+            <img src="assets/images/fintech-neopay.jpg" alt="NeoPay Fintech Dashboard UI Case Study" loading="lazy">
+          </div>
+          <div class="secondary-content">
+            <div class="project-meta-pills" style="margin-bottom: 0.75rem;">
+              <span class="meta-pill">Fintech & Banking</span>
+              <span class="meta-pill">Mobile & Web UI</span>
+            </div>
+            <h3 style="font-size: 1.35rem; margin-bottom: 0.5rem;">NeoPay — Next-Gen Dark Glassmorphic Dashboard</h3>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">
+              Designed an intuitive financial analytics app emphasizing dark-mode glassmorphism, instant biometric authentication, clear spending breakdowns, and simplified virtual card controls.
+            </p>
+            <div class="project-tools-tags" style="margin-bottom: 1.25rem;">
+              <span class="tool-tag">Figma</span>
+              <span class="tool-tag">Micro-Interactions</span>
+              <span class="tool-tag">Glassmorphism</span>
+              <span class="tool-tag">Data Visualization</span>
+            </div>
+            <div style="margin-top: auto;">
+              <button class="btn btn-secondary btn-sm" style="width: 100%;" data-open-case-study>
+                <i class="fa-solid fa-arrow-right"></i> Explore Project Details
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 3: AURA DESIGN SYSTEM -->
+        <div class="secondary-project-card">
+          <div class="secondary-img-wrapper">
+            <img src="assets/images/design-system.jpg" alt="Aura Design System UI Kit" loading="lazy">
+          </div>
+          <div class="secondary-content">
+            <div class="project-meta-pills" style="margin-bottom: 0.75rem;">
+              <span class="meta-pill">Design System</span>
+              <span class="meta-pill">Figma Component Kit</span>
+            </div>
+            <h3 style="font-size: 1.35rem; margin-bottom: 0.5rem;">Aura Design System v2.1 — Scalable Component Library</h3>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">
+              Comprehensive multi-platform UI component library constructed with Figma Auto Layout 5.0, atomic design tokens, WCAG AAA accessibility, typography scale, and nested component variants.
+            </p>
+            <div class="project-tools-tags" style="margin-bottom: 1.25rem;">
+              <span class="tool-tag">Design Tokens</span>
+              <span class="tool-tag">Auto Layout</span>
+              <span class="tool-tag">Accessibility (WCAG)</span>
+              <span class="tool-tag">Component Variants</span>
+            </div>
+            <div style="margin-top: auto;">
+              <a href="#design-system" class="btn btn-secondary btn-sm" style="width: 100%;">
+                <i class="fa-solid fa-sliders"></i> View Interactive Tokens
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       UX DESIGN PROCESS SECTION
+       ========================================================================== -->
+  <section class="section" id="process" style="background: rgba(15, 23, 42, 0.4);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-compass-drafting"></i> Design Methodology</span>
+        <h2 class="section-title">My 5-Step <span class="gradient-text">Design Thinking</span> Process</h2>
+        <p class="section-subtitle">How I take ideas from abstract problem statements to validated, production-ready digital interfaces.</p>
+      </div>
+
+      <div class="process-timeline">
+        
+        <!-- Step 1 -->
+        <div class="process-step-card">
+          <span class="step-num-badge">01</span>
+          <div class="step-icon-wrap"><i class="fa-solid fa-magnifying-glass"></i></div>
+          <h3 class="step-title">Empathize & Research</h3>
+          <p class="step-desc">Discovering real user pain points through qualitative interviews, student surveys, and competitor audits.</p>
+          <ul class="step-deliverables">
+            <li>User Interviews</li>
+            <li>Survey Synthesis</li>
+            <li>Competitor Analysis</li>
+          </ul>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="process-step-card">
+          <span class="step-num-badge">02</span>
+          <div class="step-icon-wrap"><i class="fa-solid fa-lightbulb"></i></div>
+          <h3 class="step-title">Define & Architect</h3>
+          <p class="step-desc">Synthesizing raw findings into actionable personas, problem statements, and logical information architecture.</p>
+          <ul class="step-deliverables">
+            <li>User Personas</li>
+            <li>Empathy Mapping</li>
+            <li>Sitemap & Flowcharts</li>
+          </ul>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="process-step-card">
+          <span class="step-num-badge">03</span>
+          <div class="step-icon-wrap"><i class="fa-solid fa-pen-ruler"></i></div>
+          <h3 class="step-title">Ideate & Wireframe</h3>
+          <p class="step-desc">Translating user journeys into rapid low-fidelity paper and digital wireframes to establish layout hierarchy.</p>
+          <ul class="step-deliverables">
+            <li>Low-Fidelity Wireframes</li>
+            <li>Screen Hierarchy</li>
+            <li>Navigation Pathways</li>
+          </ul>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="process-step-card">
+          <span class="step-num-badge">04</span>
+          <div class="step-icon-wrap"><i class="fa-brands fa-figma"></i></div>
+          <h3 class="step-title">Design & Prototype</h3>
+          <p class="step-desc">Applying design systems, modern typography, color psychology, and building clickable Figma prototypes.</p>
+          <ul class="step-deliverables">
+            <li>High-Fidelity UI Screens</li>
+            <li>Figma Auto-Layout</li>
+            <li>Clickable Prototype</li>
+          </ul>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="process-step-card">
+          <span class="step-num-badge">05</span>
+          <div class="step-icon-wrap"><i class="fa-solid fa-vial-circle-check"></i></div>
+          <h3 class="step-title">Test & Refine</h3>
+          <p class="step-desc">Running usability tests with target users, evaluating task completion times, and iterating on feedback.</p>
+          <ul class="step-deliverables">
+            <li>Usability Testing</li>
+            <li>Feedback Analysis</li>
+            <li>Design Iteration</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       INTERACTIVE DESIGN SYSTEM SHOWCASE
+       ========================================================================== -->
+  <section class="section" id="design-system">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-swatchbook"></i> Figma Design System</span>
+        <h2 class="section-title">Design Tokens & <span class="gradient-text">Components</span></h2>
+        <p class="section-subtitle">Click on any color swatch to copy its HEX code. Demonstrating systematic design thinking and component architecture.</p>
+      </div>
+
+      <div class="design-system-box">
+        <h4 style="font-size: 1.1rem; margin-bottom: 1.25rem; color: #FFFFFF;">
+          <i class="fa-solid fa-palette" style="color: var(--secondary);"></i> Palette Tokens (Click to Copy)
+        </h4>
+        
+        <div class="ds-swatches-grid">
+          <div class="ds-swatch" data-hex="#3B82F6" title="Click to copy #3B82F6">
+            <div class="swatch-color" style="background: #3B82F6;"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">Primary Blue</div>
+              <div class="swatch-hex">#3B82F6</div>
+            </div>
+          </div>
+
+          <div class="ds-swatch" data-hex="#38BDF8" title="Click to copy #38BDF8">
+            <div class="swatch-color" style="background: #38BDF8;"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">Sky Secondary</div>
+              <div class="swatch-hex">#38BDF8</div>
+            </div>
+          </div>
+
+          <div class="ds-swatch" data-hex="#06B6D4" title="Click to copy #06B6D4">
+            <div class="swatch-color" style="background: #06B6D4;"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">Cyan Accent</div>
+              <div class="swatch-hex">#06B6D4</div>
+            </div>
+          </div>
+
+          <div class="ds-swatch" data-hex="#0B1120" title="Click to copy #0B1120">
+            <div class="swatch-color" style="background: #0B1120; border-bottom: 1px solid rgba(255,255,255,0.1);"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">Background Navy</div>
+              <div class="swatch-hex">#0B1120</div>
+            </div>
+          </div>
+
+          <div class="ds-swatch" data-hex="#111827" title="Click to copy #111827">
+            <div class="swatch-color" style="background: #111827; border-bottom: 1px solid rgba(255,255,255,0.1);"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">Surface Card</div>
+              <div class="swatch-hex">#111827</div>
+            </div>
+          </div>
+
+          <div class="ds-swatch" data-hex="#34D399" title="Click to copy #34D399">
+            <div class="swatch-color" style="background: #34D399;"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">Success Emerald</div>
+              <div class="swatch-hex">#34D399</div>
+            </div>
+          </div>
+
+          <div class="ds-swatch" data-hex="#F9FAFB" title="Click to copy #F9FAFB">
+            <div class="swatch-color" style="background: #F9FAFB;"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">Text Primary</div>
+              <div class="swatch-hex">#F9FAFB</div>
+            </div>
+          </div>
+
+          <div class="ds-swatch" data-hex="#9CA3AF" title="Click to copy #9CA3AF">
+            <div class="swatch-color" style="background: #9CA3AF;"></div>
+            <div class="swatch-info">
+              <div class="swatch-name">Text Muted</div>
+              <div class="swatch-hex">#9CA3AF</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Component Variants Preview -->
+        <div class="ds-components-preview">
+          
+          <!-- Buttons Preview -->
+          <div class="ds-comp-card">
+            <div class="ds-comp-title">Interactive Button States</div>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+              <button class="btn btn-primary btn-sm" style="width: 100%;">Primary Action</button>
+              <button class="btn btn-secondary btn-sm" style="width: 100%;">Secondary Glass</button>
+              <button class="btn btn-accent btn-sm" style="width: 100%;">Accent Ghost</button>
+            </div>
+          </div>
+
+          <!-- Typography Scale -->
+          <div class="ds-comp-card">
+            <div class="ds-comp-title">Typography Hierarchy</div>
+            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+              <div>
+                <span style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; color: #FFFFFF;">Display Heading</span>
+                <span style="font-size: 0.75rem; color: var(--text-dim); display: block;">Space Grotesk • 700</span>
+              </div>
+              <div>
+                <span style="font-family: var(--font-body); font-size: 0.95rem; font-weight: 600; color: var(--secondary);">Subheading & Buttons</span>
+                <span style="font-size: 0.75rem; color: var(--text-dim); display: block;">Inter • 600 SemiBold</span>
+              </div>
+              <div>
+                <span style="font-family: var(--font-body); font-size: 0.85rem; color: var(--text-muted);">Body Copy & Micro-copy</span>
+                <span style="font-size: 0.75rem; color: var(--text-dim); display: block;">Inter • 400 Regular</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Badges & Inputs Preview -->
+          <div class="ds-comp-card">
+            <div class="ds-comp-title">Form Controls & Badges</div>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+              <input type="text" class="form-control" placeholder="Search study materials..." style="padding: 0.5rem 0.85rem; font-size: 0.85rem;" readonly value="Input Active State">
+              <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                <span class="skill-level-pill level-expert">Figma Auto-Layout</span>
+                <span class="skill-level-pill level-advanced">Component Token</span>
+                <span class="skill-level-pill level-proficient">WCAG AAA</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       EDUCATION & CERTIFICATIONS SECTION
+       ========================================================================== -->
+  <section class="section" id="education" style="background: rgba(15, 23, 42, 0.4);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic & Professional Path</span>
+        <h2 class="section-title">Education & <span class="gradient-text">Certifications</span></h2>
+        <p class="section-subtitle">Formal training in user-centered digital product design backed by core computer science fundamentals.</p>
+      </div>
+
+      <div class="edu-cert-grid">
+        
+        <!-- Certification: LOGIN360 -->
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div class="timeline-icon-box">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div>
+              <h3 class="timeline-title">UI/UX Designer Certification</h3>
+              <div class="timeline-institution">LOGIN360 | Chennai</div>
+              <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Professional Coursework Completed</span>
+            </div>
+          </div>
+
+          <div class="timeline-body">
+            <div class="timeline-badge-pill">
+              <i class="fa-solid fa-check"></i> Certified UI/UX Practitioner
+            </div>
+            <p>
+              Completed comprehensive professional training in UI/UX Design, UX Research, User Flows, Wireframing, Prototyping, and Usability Testing. Developed practical UI/UX projects using Figma and applied user-centered design principles.
+            </p>
+            <p>
+              Gained hands-on experience in information architecture, visual design, interaction design, and responsive UI design across multiple screen breakpoints.
+            </p>
+            <div class="syllabus-pills">
+              <span class="syllabus-pill">Figma Mastery</span>
+              <span class="syllabus-pill">UX Research</span>
+              <span class="syllabus-pill">User Personas</span>
+              <span class="syllabus-pill">Wireframing</span>
+              <span class="syllabus-pill">Prototyping</span>
+              <span class="syllabus-pill">Usability Testing</span>
+              <span class="syllabus-pill">Design Thinking</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education: Diploma in CS -->
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div class="timeline-icon-box">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div>
+              <h3 class="timeline-title">Diploma in Computer Science</h3>
+              <div class="timeline-institution">Dhanalakshmi Srinivasan University</div>
+              <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2023 – 2026 (Final Year)</span>
+            </div>
+          </div>
+
+          <div class="timeline-body">
+            <div class="timeline-badge-pill" style="background: rgba(59, 130, 246, 0.12); border-color: rgba(59, 130, 246, 0.25); color: #60A5FA;">
+              <i class="fa-solid fa-laptop-code"></i> Computer Science Foundation
+            </div>
+            <p>
+              Rigorous 3-year diploma curriculum focusing on computer science fundamentals, data structures, web technologies, software engineering methodologies, and database systems.
+            </p>
+            <p>
+              Provides a unique competitive advantage as a UI/UX designer: the ability to understand code architecture, collaborate seamlessly with frontend engineers, and design realistically feasible web and mobile interfaces.
+            </p>
+            <div class="syllabus-pills">
+              <span class="syllabus-pill">HTML & CSS</span>
+              <span class="syllabus-pill">Responsive Design</span>
+              <span class="syllabus-pill">Web Tech</span>
+              <span class="syllabus-pill">Software Lifecycle</span>
+              <span class="syllabus-pill">Algorithms</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TOOLS & SOFTWARE SECTION
+       ========================================================================== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-toolbox"></i> Ecosystem</span>
+        <h2 class="section-title">Tools I Use Daily</h2>
+        <p class="section-subtitle">Modern industry-standard software for researching, wireframing, designing, and coding.</p>
+      </div>
+
+      <div class="tools-grid">
+        <div class="tool-card">
+          <i class="fa-brands fa-figma" style="color: #F24E1E;"></i>
+          <span>Figma</span>
+        </div>
+        <div class="tool-card">
+          <i class="fa-solid fa-diagram-project" style="color: #A855F7;"></i>
+          <span>FigJam</span>
+        </div>
+        <div class="tool-card">
+          <i class="fa-solid fa-image" style="color: #38BDF8;"></i>
+          <span>Photoshop</span>
+        </div>
+        <div class="tool-card">
+          <i class="fa-solid fa-bezier-curve" style="color: #FF9A00;"></i>
+          <span>Illustrator</span>
+        </div>
+        <div class="tool-card">
+          <i class="fa-brands fa-html5" style="color: #E34F26;"></i>
+          <span>HTML5</span>
+        </div>
+        <div class="tool-card">
+          <i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i>
+          <span>CSS3</span>
+        </div>
+        <div class="tool-card">
+          <i class="fa-brands fa-js" style="color: #F7DF1E;"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="tool-card">
+          <i class="fa-brands fa-git-alt" style="color: #F05032;"></i>
+          <span>Git</span>
+        </div>
+        <div class="tool-card">
+          <i class="fa-solid fa-mobile-screen-button" style="color: #34D399;"></i>
+          <span>Responsive</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT SECTION
+       ========================================================================== -->
+  <section class="section" id="contact" style="background: rgba(15, 23, 42, 0.4);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> Get in Touch</span>
+        <h2 class="section-title">Let's Build Something <span class="gradient-text">Exceptional</span></h2>
+        <p class="section-subtitle">I'm currently looking for Full-Time UI/UX Designer opportunities, internships, and freelance projects.</p>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- Direct Contact Cards -->
+        <div class="contact-info-col">
+          <a href="mailto:praveenkumar880761@gmail.com" class="contact-direct-card">
+            <div class="contact-direct-left">
+              <div class="contact-icon-box"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <div class="contact-card-label">Email Address</div>
+                <div class="contact-card-val" style="word-break: break-all;">praveenkumar880761@gmail.com</div>
+              </div>
+            </div>
+            <i class="fa-solid fa-arrow-right" style="color: var(--secondary);"></i>
+          </a>
+
+          <a href="tel:+919363256311" class="contact-direct-card">
+            <div class="contact-direct-left">
+              <div class="contact-icon-box"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <div class="contact-card-label">Phone & WhatsApp</div>
+                <div class="contact-card-val">+91 9363256311</div>
+              </div>
+            </div>
+            <i class="fa-solid fa-phone-flip" style="color: var(--secondary);"></i>
+          </a>
+
+          <div class="contact-direct-card">
+            <div class="contact-direct-left">
+              <div class="contact-icon-box"><i class="fa-solid fa-map-location-dot"></i></div>
+              <div>
+                <div class="contact-card-label">Location</div>
+                <div class="contact-card-val">Chennai, Tamil Nadu, India</div>
+              </div>
+            </div>
+            <span style="font-size: 0.75rem; color: #34D399; font-weight: 600;">Open to Relocation</span>
+          </div>
+
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-direct-card">
+            <div class="contact-direct-left">
+              <div class="contact-icon-box"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div>
+                <div class="contact-card-label">Professional Network</div>
+                <div class="contact-card-val">Connect on LinkedIn</div>
+              </div>
+            </div>
+            <i class="fa-solid fa-arrow-up-right-from-square" style="color: var(--secondary);"></i>
+          </a>
+
+          <!-- Quick Hire Pill -->
+          <div style="background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.25); border-radius: var(--radius-lg); padding: 1.5rem;">
+            <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
+              <span class="status-dot"></span>
+              <strong style="color: #FFFFFF; font-size: 0.95rem;">Ready to Join Your Team</strong>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+              Whether you need a fresh UI/UX designer with strong Figma expertise or an eager junior contributor for your product design team, I am ready to start immediately.
+            </p>
+            <button class="btn btn-primary btn-sm" data-open-resume style="width: 100%;">
+              <i class="fa-solid fa-file-arrow-down"></i> Download My Resume
+            </button>
+          </div>
+        </div>
+
+        <!-- Interactive Contact Form -->
+        <div class="contact-form-card">
+          <h3 style="font-size: 1.4rem; margin-bottom: 1.5rem; color: #FFFFFF;">
+            Send a Direct Message
+          </h3>
+
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="formName" class="form-label">Your Name *</label>
+              <input type="text" id="formName" class="form-control" placeholder="e.g. John Doe / Recruiter" required>
+            </div>
+
+            <div class="form-group">
+              <label for="formEmail" class="form-label">Your Email *</label>
+              <input type="email" id="formEmail" class="form-control" placeholder="e.g. recruiter@company.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="formSubject" class="form-label">Inquiry Type</label>
+              <select id="formSubject" class="form-control">
+                <option value="Full-Time UI/UX Designer Role">Full-Time UI/UX Designer Role</option>
+                <option value="Design Internship Opportunity">Design Internship Opportunity</option>
+                <option value="Freelance Product Design Project">Freelance Product Design Project</option>
+                <option value="Portfolio Review / Feedback">Portfolio Review / Feedback</option>
+                <option value="General Inquiry">General Inquiry</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+                <label for="formMessage" class="form-label" style="margin-bottom: 0;">Your Message *</label>
+                <span id="messageCharCount" style="font-size: 0.75rem; color: var(--text-dim);">0/500</span>
+              </div>
+              <textarea id="formMessage" class="form-control" maxlength="500" placeholder="Tell me about your design needs, role opening, or project idea..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" id="submitFormBtn" style="width: 100%;">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#home" class="nav-logo">
+          <div class="logo-badge">P</div>
+          <div>
+            <span>PRAVEEN</span>
+            <span class="logo-sub">UI/UX DESIGNER • CHENNAI</span>
+          </div>
+        </a>
+
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Case Studies</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div style="display: flex; gap: 0.75rem;">
+          <a href="mailto:praveenkumar880761@gmail.com" class="theme-toggle-btn" title="Email Praveen" aria-label="Email Praveen">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="tel:+919363256311" class="theme-toggle-btn" title="Call Praveen" aria-label="Call Praveen">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="theme-toggle-btn" title="LinkedIn" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 Praveen. Designed & Crafted with modern UI/UX principles.
+        </div>
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <span>Chennai, Tamil Nadu</span>
+          <button class="back-to-top-btn" id="backToTopBtn" title="Back to top" aria-label="Back to top">
+            <i class="fa-solid fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL 1: ARREAR CLEARING IN-DEPTH CASE STUDY MODAL
+       ========================================================================== -->
+  <div class="modal-overlay" id="caseStudyModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div>
+          <span style="font-size: 0.78rem; text-transform: uppercase; color: var(--secondary); font-weight: 700; letter-spacing: 0.05em;">Interactive UX Case Study</span>
+          <h2 id="modalTitle" style="font-size: 1.5rem; margin-top: 0.2rem;">Arrear Clearing — Student Academic Success App</h2>
+        </div>
+        <button class="modal-close-btn" id="closeCaseStudyBtn" aria-label="Close modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        
+        <!-- Case Study Header Banner -->
+        <div style="border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 2rem; border: 1px solid var(--border-subtle);">
+          <img src="assets/images/arrear-clearing.jpg" alt="Arrear Clearing UI Case Study Mockup" style="width: 100%; height: auto;">
+        </div>
+
+        <!-- Project Metadata Overview -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin-bottom: 2rem; padding: 1.25rem; background: var(--bg-secondary); border-radius: var(--radius-md);">
+          <div>
+            <div style="font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase;">My Role</div>
+            <div style="font-size: 0.95rem; font-weight: 600; color: #FFFFFF;">Lead UI/UX Designer</div>
+          </div>
+          <div>
+            <div style="font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase;">Duration</div>
+            <div style="font-size: 0.95rem; font-weight: 600; color: #FFFFFF;">6 Weeks Sprint</div>
+          </div>
+          <div>
+            <div style="font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase;">Primary Tool</div>
+            <div style="font-size: 0.95rem; font-weight: 600; color: #38BDF8;">Figma & FigJam</div>
+          </div>
+          <div>
+            <div style="font-size: 0.75rem; color: var(--text-dim); text-transform: uppercase;">Target Users</div>
+            <div style="font-size: 0.95rem; font-weight: 600; color: #34D399;">Diploma & Engg Students</div>
+          </div>
+        </div>
+
+        <!-- Problem & Solution Section -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2.5rem;">
+          <div style="background: rgba(239, 68, 68, 0.08); border: 1px solid rgba(239, 68, 68, 0.25); border-radius: var(--radius-md); padding: 1.5rem;">
+            <h4 style="color: #F87171; font-size: 1.05rem; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fa-solid fa-triangle-exclamation"></i> The Problem
+            </h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">
+              Engineering and diploma students struggling with backlog subjects face immense stress due to scattered study notes, missing previous-year question papers, confusing syllabus updates, and an inability to find reliable mentor support before exams.
+            </p>
+          </div>
+
+          <div style="background: rgba(52, 211, 153, 0.08); border: 1px solid rgba(52, 211, 153, 0.25); border-radius: var(--radius-md); padding: 1.5rem;">
+            <h4 style="color: #34D399; font-size: 1.05rem; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fa-solid fa-circle-check"></i> The UX Solution
+            </h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">
+              Created an all-in-one mobile companion providing direct access to subject-wise curated notes, indexed past-year question papers with solutions, an interactive progress tracker, and a mentor booking feature for 1-on-1 guidance.
+            </p>
+          </div>
+        </div>
+
+        <!-- User Persona Card -->
+        <div style="background: var(--bg-secondary); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.75rem; margin-bottom: 2.5rem;">
+          <h4 style="font-size: 1.15rem; margin-bottom: 1rem; color: #FFFFFF; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fa-solid fa-user-circle" style="color: var(--secondary);"></i> Primary User Persona: Karthik R.
+          </h4>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+            <div>
+              <div style="font-size: 0.85rem; font-weight: 600; color: #38BDF8; margin-bottom: 0.4rem;">Demographics & Habits</div>
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">
+                • 3rd Year Diploma in Computer Science<br>
+                • 2 backlog papers (Data Structures, Math III)<br>
+                • Studies mostly late at night via smartphone<br>
+                • Gets overwhelmed by lengthy textbook PDFs
+              </p>
+            </div>
+            <div>
+              <div style="font-size: 0.85rem; font-weight: 600; color: #06B6D4; margin-bottom: 0.4rem;">Key Needs & Frustrations</div>
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">
+                • Needs solved question papers from the past 5 years<br>
+                • Requires quick 15-minute doubt-clearing sessions<br>
+                • Needs visual encouragement and progress analytics<br>
+                • Dark mode to prevent eye strain during late nights
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Screen Switcher Simulation -->
+        <div class="interactive-mockup-frame">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.75rem;">
+            <h4 style="font-size: 1rem; color: #FFFFFF; margin: 0;">
+              <i class="fa-solid fa-mobile-screen" style="color: var(--secondary);"></i> Screen Architecture Preview
+            </h4>
+            <div class="screen-switcher-nav" style="margin-bottom: 0; padding-bottom: 0;">
+              <button class="screen-switch-btn active" data-screen="home">1. Dashboard & Subjects</button>
+              <button class="screen-switch-btn" data-screen="pyqp">2. PYQ Papers Repository</button>
+              <button class="screen-switch-btn" data-screen="mentor">3. Mentor Connect</button>
+              <button class="screen-switch-btn" data-screen="analytics">4. Progress Analytics</button>
+            </div>
+          </div>
+
+          <!-- Screen 1 Details -->
+          <div class="mockup-screen-view" data-screen-id="home" style="display: block;">
+            <div style="background: rgba(15, 23, 42, 0.8); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.5rem;">
+              <h5 style="color: var(--secondary); font-size: 0.95rem; margin-bottom: 0.5rem;">Screen 1: Backlog Dashboard & Subject Cards</h5>
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6;">
+                Clean vertical list of student backlogs (e.g. Data Structures, Algorithms, DBMS). Each card displays syllabus progress percentage, quick action buttons for Notes, Video Lessons, and Previous Year Questions, and exam date countdown pill.
+              </p>
+            </div>
+          </div>
+
+          <!-- Screen 2 Details -->
+          <div class="mockup-screen-view" data-screen-id="pyqp" style="display: none;">
+            <div style="background: rgba(15, 23, 42, 0.8); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.5rem;">
+              <h5 style="color: var(--secondary); font-size: 0.95rem; margin-bottom: 0.5rem;">Screen 2: Searchable Previous-Year Question Papers (PYQP)</h5>
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6;">
+                Enables students to filter past papers by examination session (May 2023, Dec 2022, May 2022). Each paper card highlights recurring high-frequency questions, 1-tap PDF download, and solution keys verified by college faculty.
+              </p>
+            </div>
+          </div>
+
+          <!-- Screen 3 Details -->
+          <div class="mockup-screen-view" data-screen-id="mentor" style="display: none;">
+            <div style="background: rgba(15, 23, 42, 0.8); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.5rem;">
+              <h5 style="color: var(--secondary); font-size: 0.95rem; margin-bottom: 0.5rem;">Screen 3: Mentor Connect & 1-on-1 Guidance</h5>
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6;">
+                Connects students directly to senior peer tutors and professors for scheduled 15-minute voice/chat sessions to review difficult derivations and exam-clearing strategies.
+              </p>
+            </div>
+          </div>
+
+          <!-- Screen 4 Details -->
+          <div class="mockup-screen-view" data-screen-id="analytics" style="display: none;">
+            <div style="background: rgba(15, 23, 42, 0.8); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.5rem;">
+              <h5 style="color: var(--secondary); font-size: 0.95rem; margin-bottom: 0.5rem;">Screen 4: Completion Analytics & Study Streak</h5>
+              <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6;">
+                Motivational bar graphs and completion rings showing daily study hours logged, solved PYQP papers count, and mock exam readiness score.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testing & Results -->
+        <div style="margin-top: 2rem;">
+          <h4 style="font-size: 1.15rem; margin-bottom: 1rem; color: #FFFFFF;">
+            <i class="fa-solid fa-chart-line" style="color: #34D399;"></i> Usability Testing & Impact
+          </h4>
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;">
+            <div style="background: var(--bg-secondary); padding: 1rem; border-radius: var(--radius-md); text-align: center;">
+              <div style="font-size: 1.75rem; font-weight: 800; color: #38BDF8;">88%</div>
+              <div style="font-size: 0.78rem; color: var(--text-muted);">System Usability Score (SUS)</div>
+            </div>
+            <div style="background: var(--bg-secondary); padding: 1rem; border-radius: var(--radius-md); text-align: center;">
+              <div style="font-size: 1.75rem; font-weight: 800; color: #34D399;">-65%</div>
+              <div style="font-size: 0.78rem; color: var(--text-muted);">Time to Find Relevant PYQ Papers</div>
+            </div>
+            <div style="background: var(--bg-secondary); padding: 1rem; border-radius: var(--radius-md); text-align: center;">
+              <div style="font-size: 1.75rem; font-weight: 800; color: #06B6D4;">9.2/10</div>
+              <div style="font-size: 0.78rem; color: var(--text-muted);">Student Navigation Ease Rating</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL 2: ATS RESUME VIEWER & PRINT / DOWNLOAD
+       ========================================================================== -->
+  <div class="modal-overlay" id="resumeModal" role="dialog" aria-modal="true" aria-labelledby="resumeTitle">
+    <div class="modal-container" style="max-width: 820px;">
+      <div class="modal-header">
+        <div>
+          <span style="font-size: 0.78rem; text-transform: uppercase; color: var(--secondary); font-weight: 700; letter-spacing: 0.05em;">Curriculum Vitae</span>
+          <h2 id="resumeTitle" style="font-size: 1.4rem; margin-top: 0.2rem;">Praveen — UI/UX Designer</h2>
+        </div>
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <button class="btn btn-primary btn-sm" id="printResumeBtn">
+            <i class="fa-solid fa-print"></i> Print / Save PDF
+          </button>
+          <button class="modal-close-btn" id="closeResumeBtn" aria-label="Close resume">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="modal-body" id="printableResumeArea" style="background: var(--bg-card); color: var(--text-main); font-family: var(--font-body);">
+        
+        <!-- Header -->
+        <div style="border-bottom: 2px solid var(--border-medium); padding-bottom: 1.25rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+          <div>
+            <h1 style="font-size: 2rem; font-weight: 800; color: #FFFFFF; letter-spacing: -0.02em; margin-bottom: 0.25rem;">PRAVEEN</h1>
+            <div style="font-size: 1.05rem; font-weight: 600; color: var(--secondary); letter-spacing: 0.05em;">UI/UX DESIGNER</div>
+          </div>
+          <div style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6; text-align: right;">
+            <div><i class="fa-solid fa-phone"></i> +91 9363256311</div>
+            <div><i class="fa-solid fa-envelope"></i> praveenkumar880761@gmail.com</div>
+            <div><i class="fa-solid fa-location-dot"></i> Chennai, Tamil Nadu, India</div>
+          </div>
+        </div>
+
+        <!-- Summary -->
+        <div style="margin-bottom: 1.75rem;">
+          <h3 style="font-size: 1rem; text-transform: uppercase; color: var(--secondary); letter-spacing: 0.05em; border-bottom: 1px solid var(--border-subtle); padding-bottom: 0.4rem; margin-bottom: 0.75rem;">
+            Professional Summary
+          </h3>
+          <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.7;">
+            Creative and detail-oriented UI/UX Designer with a strong interest in creating user-friendly, visually appealing, and intuitive digital experiences. Skilled in user research, wireframing, prototyping, information architecture, and UI design. Highly proficient in Figma and passionate about understanding user needs and solving design problems through simple and effective solutions. Eager to apply design skills in a professional environment and contribute to meaningful digital products while continuously developing industry-relevant expertise.
+          </p>
+        </div>
+
+        <!-- Technical Skills -->
+        <div style="margin-bottom: 1.75rem;">
+          <h3 style="font-size: 1rem; text-transform: uppercase; color: var(--secondary); letter-spacing: 0.05em; border-bottom: 1px solid var(--border-subtle); padding-bottom: 0.4rem; margin-bottom: 0.75rem;">
+            Technical Skills
+          </h3>
+          <div style="font-size: 0.88rem; line-height: 1.8; color: var(--text-muted);">
+            <div><strong style="color: #FFFFFF;">UI/UX Design:</strong> User Research, User Personas, User Journey Mapping, Information Architecture</div>
+            <div><strong style="color: #FFFFFF;">Design Execution:</strong> Wireframing, Prototyping, Visual Design, Interaction Design, Responsive Design</div>
+            <div><strong style="color: #FFFFFF;">Tools:</strong> Figma, FigJam, Adobe Photoshop, Adobe Illustrator</div>
+            <div><strong style="color: #FFFFFF;">UX Methods:</strong> Usability Testing, Competitor Analysis, Design Thinking, Heuristic Evaluation</div>
+            <div><strong style="color: #FFFFFF;">Design Systems:</strong> Typography, Color Theory, Layout, Components, Auto Layout</div>
+            <div><strong style="color: #FFFFFF;">Prototyping:</strong> Low-Fidelity & High-Fidelity Prototypes, Interactive Prototypes</div>
+            <div><strong style="color: #FFFFFF;">Basic Technical Knowledge:</strong> HTML, CSS, Responsive Web Design</div>
+          </div>
+        </div>
+
+        <!-- Projects -->
+        <div style="margin-bottom: 1.75rem;">
+          <h3 style="font-size: 1rem; text-transform: uppercase; color: var(--secondary); letter-spacing: 0.05em; border-bottom: 1px solid var(--border-subtle); padding-bottom: 0.4rem; margin-bottom: 0.75rem;">
+            Featured Projects
+          </h3>
+          <div style="margin-bottom: 1.25rem;">
+            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.25rem;">
+              <strong style="font-size: 1rem; color: #FFFFFF;">ARREAR CLEARING — Student Academic Companion App</strong>
+              <span style="font-size: 0.8rem; color: var(--secondary);">Figma UI/UX Project</span>
+            </div>
+            <ul style="padding-left: 1.2rem; font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">
+              <li>Designed a mobile app to help college students strategically clear arrear subjects.</li>
+              <li>Added subject-wise study materials and curated video links for easy access.</li>
+              <li>Provided previous-year question papers (PYQP) for targeted exam preparation.</li>
+              <li>Included a mentor feature connecting students with senior peers and tutors.</li>
+              <li>Created comprehensive user flow, wireframes, and UI screens using Figma.</li>
+              <li>Designed an interactive prototype with intuitive navigation and usability testing validation.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div style="margin-bottom: 1.75rem;">
+          <h3 style="font-size: 1rem; text-transform: uppercase; color: var(--secondary); letter-spacing: 0.05em; border-bottom: 1px solid var(--border-subtle); padding-bottom: 0.4rem; margin-bottom: 0.75rem;">
+            Education
+          </h3>
+          <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <div>
+              <strong style="color: #FFFFFF; font-size: 0.95rem;">Diploma in Computer Science</strong>
+              <div style="font-size: 0.85rem; color: var(--text-muted);">Dhanalakshmi Srinivasan University</div>
+            </div>
+            <div style="font-size: 0.85rem; color: var(--secondary); font-weight: 600;">2023 – 2026</div>
+          </div>
+        </div>
+
+        <!-- Certifications -->
+        <div>
+          <h3 style="font-size: 1rem; text-transform: uppercase; color: var(--secondary); letter-spacing: 0.05em; border-bottom: 1px solid var(--border-subtle); padding-bottom: 0.4rem; margin-bottom: 0.75rem;">
+            Certifications
+          </h3>
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.25rem;">
+              <strong style="color: #FFFFFF; font-size: 0.95rem;">UI/UX DESIGNER — LOGIN360</strong>
+              <span style="font-size: 0.85rem; color: var(--secondary);">Chennai</span>
+            </div>
+            <ul style="padding-left: 1.2rem; font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">
+              <li>Completed professional training in UI/UX Design, UX Research, User Flows, Wireframing, Prototyping, and Usability Testing.</li>
+              <li>Developed practical UI/UX projects using Figma and applied user-centered design principles.</li>
+              <li>Gained hands-on experience in information architecture, visual design, interaction design, and responsive UI design.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toastNotification" class="toast-notification"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/app.js"></script>
+</body>
+</html>
