@@ -40,7 +40,7 @@ portfolio/
 │   └── app.js                   # Interactive behaviors, modals & filters
 ├── assets/
 │   └── images/
-│       ├── praveen-avatar.jpg   # 3D Stylized Designer Portrait
+│       ├── praveen-avatar.jpg   # Professional Designer Portrait Photo
 │       ├── arrear-clearing.jpg  # Arrear Clearing Mobile Case Study Mockup
 │       ├── fintech-neopay.jpg   # NeoPay Fintech App Mockup
 │       └── design-system.jpg   # Aura Design System UI Kit Mockup
